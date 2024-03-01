@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cascadia Code;
+}
+f html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+#nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+#nav-p1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+#nav h3 {
+  font-size: 16px;
+  border: 1.5px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+#nav i {
+  font-size: 16px;
+  border: 1.5px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+#nav h1 {
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#nav button {
+  padding: 7px 12px;
+  border-radius: 50px;
+  border: 1.5px solid black;
+  font-size: 16px;
+  font-weight: 600;
+  /* background-color: white; */
+}
+
+#btn2 {
+  background-color: orangered;
+  color: white;
+  border: none;
+}
+
+#main > h1 {
+  color: black;
+  font-size: 200px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  /* background-color: red; */
+}
+
+img {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+#img1 {
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img2 {
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#img3 {
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#img4 {
+  transform: translate(-50%, -50%) rotate(-0deg);
+}
+
+#btm-left {
+  position: absolute;
+  left: 3%;
+  bottom: 5%;
+  font-size: 20px;
+}
+
+#btm-right {
+  position: absolute;
+  right: 3%;
+  bottom: 5%;
+  font-size: 20px;
+}
+
+#icon {
+  position: absolute;
+  display: flex;
+  right: 5%;
+  bottom: 8%;
+  gap: 25px;
+  font-size: 30px;
+  padding: 0px, 30px;
+}
+
+#arrow {
+  font-size: 50px;
+  padding: 25px 25px;
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  border-radius: 65px;
+}
